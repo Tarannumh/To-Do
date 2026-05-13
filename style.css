@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    /* width: 50%; */
+    /* height: 400px; */
+    /* border: 1px solid; */
+    padding: 20px;
+    box-shadow: rgb(158 185 213) 0px 8px 24px;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.card input {
+    margin: 12px;
+    /* width: 90%; */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+
+}
+
+li {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.com {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.dlt {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+}

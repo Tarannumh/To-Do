@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <div class="card">
         <h1>
             TO DO
@@ -19,6 +20,7 @@
         <ul id="tasklist">
 
         </ul>
+        <button onclick="myFunction()">Dark mode</button>
         <script>
 
             function add() {
@@ -35,7 +37,7 @@
 
                 span.textContent = TaskText
                 span.onclick = function () {
-                    span.classList.toggle("com")    
+                    span.classList.toggle("com")
                 }
                 let del = document.createElement("button")
                 del.textContent = "X"
@@ -49,7 +51,14 @@
                 document.getElementById("tasklist").appendChild(li)
                 input.value = ""
 
+
             }
+            function myFunction() {
+                var element = document.body;
+                document.body.classList.toggle("dark-mode")
+            }
+
+
 
         </script>
 
